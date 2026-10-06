@@ -9,7 +9,7 @@ let racchetta_dx;
 let pallina;
 function preload() {}
 
-function create() {
+function create(s) {
     racchetta_sx = PP.shapes.rectangle_add(
         s, MARGINE, ALTEZZA / 2,
         L_RACCHETTA, A_RACCHETTA, BIANCO, 1
